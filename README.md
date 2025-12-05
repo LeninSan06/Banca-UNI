@@ -26,49 +26,17 @@ Pequeño simulador en Python (orientado a objetos) que permite crear cuentas, de
 pip install -r bank_sim/requirements.txt
 ```
 
-## Uso
-
-### Opción 1: Interfaz Gráfica (Recomendado)
-
-```bash
-cd /home/frvk/Documentos/Turtleproj
-python3 bank_sim/main.py
-# Seleccione opción "1" para GUI
-```
-
 **Flujo en GUI:**
 1. Ingrese DNI en el campo de entrada
 2. Seleccione una cuenta
 3. Use los botones para: crear cuenta, registrar rostro, depositar, retirar, transferir
 4. Las operaciones de retirar/transferir abren la cámara automáticamente
 
-### Opción 2: Terminal (CLI)
-
-```bash
-cd /home/frvk/Documentos/Turtleproj
-python3 bank_sim/main.py
-# Seleccione opción "2" para CLI
-```
-
 **Flujo en CLI:**
 1. Crear cuenta
 2. Registrar rostro
 3. Depositar
 4. Retirar o Transferir (requiere verificación facial en vivo)
-
-### Ejecutar directo GUI
-
-```bash
-cd /home/frvk/Documentos/Turtleproj
-python3 bank_sim/gui.py
-```
-
-### Ejecutar directo CLI
-
-```bash
-cd /home/frvk/Documentos/Turtleproj
-python3 -c "from bank_sim.main import run_cli; run_cli()"
-```
 
 ## Estructura
 
