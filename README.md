@@ -1,3 +1,4 @@
+# Banca UNI 
 # Simulador de Banco con Reconocimiento Facial
 
 Pequeño simulador en Python (orientado a objetos) que permite crear cuentas, depositar, retirar y transferir. Para operaciones sensibles (retirar/transferir) se activa la cámara y se realiza una verificación facial simple.
